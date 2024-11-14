@@ -12,6 +12,106 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="montserrat">
-    <h1 class="text-center">Nobodip</h1>
+    <header>
+        <nav class="container mx-auto pt-8 flex justify-between items-center">
+            <h1 class="text-4xl font-bold logo"><span>Eat </span>Healthy</h1>
+            <ul class="flex items-center justify-center gap-8 text-lg font-semibold "> 
+                <li>Home</li>
+                <li>About us</li>
+                <li>Blogs</li>
+                <li>Contact</li>
+                <li class="text-white rounded-lg login">Login</li>
+            </ul>
+        </nav>
+        <div class="grid grid-cols-2 container mx-auto justify-center items-center">
+            <div>
+                <h1 class="text-[60px] font-bold text-[#575757] mb-6"><span class="logo">Skip</span> The Diet, <br>
+                    Just Eat Healthy <br>
+                    With Food Network</h1>
+                <p class="text-xl text-[#828282] mb-12">Imagine you don't need a diet because we provide <br>
+                healthy and delicious food for you!</p>
+                <button class="btn-1">Order Food</button>
+            </div>
+            <div>
+                <img src="images/female/Group 8425.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="mt-24 grid grid-cols-2 justify-center items-center mb-[72px] section-1">
+            <div>
+                <div class="flex justify-center items-center pt-[64px]">
+                    <img class="w-[340px] h-auto" src="images/female/Person Image.png" alt="">
+                </div>
+            </div>
+            <div class="pr-[165px]">
+                <h1 class="text-[40px] font-bold text-[#707070] mb-8">About Me</h1>
+                <p class="text-lg text-[#18191F] mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+                <button class="btn-1">Contact me</button>
+            </div>
+        </section>
+        <section class="mb-24">
+            <h1 class="text-center text-[40px] font-bold text-[#676767] mb-8">My recipies</h1>
+            <p class="text-center text-[#252525] mb-9">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the <br>1500s.</p>
+            <div class="container mx-auto grid grid-cols-2 gap-6">
+                <div class="cards p-7">
+                    <img  src="images/food/Project Cover.jpg" alt="">
+                    <h1 class="text-[28px] font-bold text-[#18191F] mt-8 mb-3">Recipie Title</h1>
+                    <p class="text-lg text-[#18191F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <div class="cards p-7">
+                    <img src="images/food/Project Cover.png" alt="">
+                    <h1 class="text-[28px] font-bold text-[#18191F] mt-8 mb-3">Recipie Title</h1>
+                    <p class="text-lg text-[#18191F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+            <div class="container mx-auto w-1/2 mt-6">
+                <div class="cards p-7">
+                    <img src="images/food/Project Cover1.jpg" alt="">
+                    <h1 class="text-[28px] font-bold text-[#18191F] mt-8 mb-3">Recipie Title</h1>
+                    <p class="text-lg text-[#18191F]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mb-24">
+            <h1 class="text-center text-[40px] text-[#676767] font-bold mb-6">Our Cards</h1>
+            <p class="text-center text-lg text-[#252525] mb-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente in autem itaque accusamus corrupti <br> ducimus! Voluptates hic deleniti aspernatur voluptatum.</p>
+            <div class="grid grid-cols-3 gap-6 container mx-auto">
+                <div class="p-4 border rounded-lg">
+                    <img class="rounded-lg" src="images/food/Project Cover5.png" alt="">
+                </div>
+                <div class="p-4 border rounded-lg">
+                    <img class="rounded-lg" src="images/food/Project Cover7.png" alt="">
+                </div>
+                <div class="p-4 border rounded-lg">
+                    <img class="rounded-lg" src="images/food/Project Cover8.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto p-16 pl-40 pr-40 border mb-24 cards">
+            <div class="grid grid-cols-3">
+                <div>
+                    <h1 class="text-center text-5xl text-[#18191F] font-bold mb-2">700k</h1>
+                    <p class="text-center text-[16px] text-[#18191F]">Youtube Subscribers</p>
+                </div>
+                <div>
+                    <h1 class="text-center text-5xl text-[#18191F] font-bold mb-2">2.4m</h1>
+                    <p class="text-center text-[16px] text-[#18191F]">Instagram Followers</p>
+                </div>
+                <div>
+                    <h1 class="text-center text-5xl text-[#18191F] font-bold mb-2">100k</h1>
+                    <p class="text-center text-[16px] text-[#18191F]">Dribbble Shot Likes</p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto p-36 rounded-xl mb-24 email-section flex justify-center items-center gap-5">
+            <input class="p-4 w-3/4 rounded-xl" type="text" placeholder="Enter Your Email">
+            <button class="login p-4 pl-8 pr-8 rounded-xl text-white font-semibold">Submit</button>
+        </section>
+    </main>
+    <footer class="p-24 bg-[#0B0D17]">
+        <h1 class="text-center text-4xl font-bold text-[#5B5B5B]">Eat <span class="logo">Fresh</span></h1>
+        <p class="text-center mt-3 text-xl font-semibold logo">@Nobodip Debnath</p>
+    </footer>
 </body>
 </html>

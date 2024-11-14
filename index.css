@@ -4,4 +4,38 @@
     font-weight: normal;
     font-style: normal;
 }
-  
+.login{
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.8);
+/* gradient */
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    padding: 10px 20px;
+}
+.logo{
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:    text;
+}
+.btn-1{
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+/* gradient */
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+}
+.section-1{
+    background: url(images/shapes/7.png);
+    background-position: center;
+    background-size: cover;
+}
+.cards{
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.email-section{
+    background: url(images/food/cover.png);
+}
